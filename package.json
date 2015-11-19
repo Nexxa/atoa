@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "cp -pr ./hooks/* ./.git/hooks",
-    "lint": "eslint",
+    "lint": "eslint index.js",
     "test": "tape ./tests/*.js | tap-spec",
-    "prepublish": "lint && test"
+    "prepublish": "npm run lint && npm test"
   },
   "directories": {
     "example": "./examples"
