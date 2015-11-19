@@ -10,7 +10,7 @@ Fork it and start to edit. There is a `git pre-commit` hook which is installed o
 
 Testing is made with [TAPE](https://github.com/substack/tape) and [tap-spec](https://github.com/scottcorgan/tap-spec) reporter.
 
-~~Continuous integration courtesy of [Travis CI](https://travis-ci.org/).~~
+Continuous integration courtesy of [Travis CI](https://travis-ci.org/).
 
 ## Reference
 
