@@ -4,7 +4,7 @@
   "description": "arguments object to array",
   "main": "index.js",
   "scripts": {
-    "preinstall": "cp -pr ./hooks/* ./.git/hooks",
+    "postinstall": "cp -pr ./hooks/* ./.git/hooks",
     "lint": "eslint",
     "test": "tape ./tests/*.js | tap-spec",
     "prepublish": "lint && test"
