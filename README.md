@@ -1,4 +1,4 @@
-# atoa
+# atoa [![Build Status](https://travis-ci.org/Nexxa/atoa.svg?branch=master)](https://travis-ci.org/Nexxa/atoa)
 
 Converts javascript "arguments" object into array.
 
