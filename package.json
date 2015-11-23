@@ -12,8 +12,8 @@
   "directories": {
     "example": "./examples"
   },
-  "engines" : {
-    "node" : ">=0.12 <4.0"
+  "engines": {
+    "node": ">=0.12 <4.0"
   },
   "repository": {
     "type": "git",
