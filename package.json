@@ -4,13 +4,16 @@
   "description": "arguments object to array",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cp -pr ./hooks/* ./.git/hooks",
     "lint": "eslint index.js",
     "test": "tape ./tests/*.js | tap-spec",
-    "prepublish": "npm run lint && npm test"
+    "pretest": "npm run lint",
+    "prepublish": "npm test"
   },
   "directories": {
     "example": "./examples"
+  },
+  "engines" : {
+    "node" : ">=0.12 <4.0"
   },
   "repository": {
     "type": "git",
