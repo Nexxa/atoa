@@ -1,6 +1,6 @@
 {
   "name": "nexxa-atoa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "arguments object to array",
   "main": "index.js",
   "scripts": {
