@@ -6,7 +6,7 @@ Instead of the using the widespread `Array.prototype.slice` method, it copies th
 
 ## Contribution
 
-Fork it and start to edit. There is a `git pre-commit` hook which is installed on `npm preinstall` in order to lint the source with `eslint` before commit and avoid to "dirty" the repository history.
+Fork it and start to edit.
 
 Testing is made with [TAPE](https://github.com/substack/tape) and [tap-spec](https://github.com/scottcorgan/tap-spec) reporter.
 
