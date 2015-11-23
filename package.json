@@ -13,7 +13,7 @@
     "example": "./examples"
   },
   "engines": {
-    "node": ">=0.12 <4.0"
+    "node": ">=0.10"
   },
   "repository": {
     "type": "git",
