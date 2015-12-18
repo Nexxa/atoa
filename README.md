@@ -4,6 +4,15 @@ Converts javascript "arguments" object into array.
 
 Instead of the using the widespread `Array.prototype.slice` method, it copies the `arguments` items into a real array for better optimization, as explained [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments) (look at the **Important** alert) and [here](https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#32-leaking-arguments).
 
+## API
+### `atoa(args, [start])`
+
+Param     | Type     | Default | Description
+--------- | -------- | ------- | -------------------------------
+**args**  | *object* |         | the arguments array-like object
+**start** | *number* | **0**   | starting index (0-based)
+
+
 ## Contribution
 
 Fork it and start to edit.
